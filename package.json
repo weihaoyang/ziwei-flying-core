@@ -1,0 +1,25 @@
+{
+  "name": "@singseq/ziwei-flying-core",
+  "version": "0.1.0",
+  "type": "module",
+  "license": "GPL-3.0-only",
+  "scripts": {
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "patch:3meta": "node ops/patch-3meta.mjs",
+    "pretest": "npm run patch:3meta"
+  },
+  "dependencies": {
+    "3meta": "2.6.0",
+    "iztro": "2.6.1",
+    "lunar-typescript": "1.8.6",
+    "react": "19.2.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
+  },
+  "description": "宫干飞化与河洛数"
+}
